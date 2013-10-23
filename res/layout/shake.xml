@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvw6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#1111FF"
+        android:textSize="11pt"
+         android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tvw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   This is a funny simple app - combination of ASTROLOGY n LUCK :) Had fun ??"
+        android:textColor="#FF0033"
+        android:textSize="8pt"
+         android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tvw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0033"
+        android:textSize="8pt"
+         android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tvw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" $$  Dedicated to all my FB Friends :-) $$ "
+        android:textColor="#000033"
+        android:textSize="8pt"
+         android:textStyle="bold|italic"
+            
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tvw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0033"
+        android:textSize="6pt"
+         android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tvw4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" ## Written n Directed by Jash ## "
+        android:textColor="#1111FF"
+        android:textSize="8pt"
+         android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="146dp"
+        android:layout_height="228dp"
+        android:src="@drawable/jas" 
+    />
+
+</LinearLayout>

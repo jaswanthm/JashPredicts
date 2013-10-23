@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play with ur Name :)  "
+            android:textColor="#444444"
+            android:textSize="12pt"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="            "
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        />
+    	
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Ur Name with Initial" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/templatemo_header"
+        android:text="Know Ur Self !"
+        android:textColor="#114411"
+        android:textSize="9pt"
+        android:textStyle="bold|italic"
+            android:typeface="serif" 
+            />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/newwood"
+        android:text="Find my Friend B-)"
+        android:textColor="#FFFFFF"
+        android:textSize="9pt"
+        android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/trend"
+        android:text="Bond Calc:-)"
+        android:textColor="#11CC11"
+        android:textSize="9pt"
+        android:textStyle="bold|italic"
+            android:typeface="serif" />
+    
+    <Button
+        android:id="@+id/btnFlames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/newwood"
+        android:text="Play Flames ;)"
+        android:textColor="#FFF0F1"
+        android:textSize="9pt"
+        android:textStyle="bold|italic"
+            android:typeface="serif" />
+    
+    <Button
+        android:id="@+id/btnShake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/templatemo_header"
+        android:text="About the App :P ??"
+        android:textColor="#114411"
+        android:textSize="9pt"
+        android:textStyle="bold|italic"
+            android:typeface="serif" />
+    
+</LinearLayout>

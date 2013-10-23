@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF22AA"
+            android:textSize="10pt"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+     	
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Interested in calculating ur bond with ur closest buddy ? :) Here we GO :) "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#330066"
+            android:textSize="10pt"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+    <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF22AA"
+            android:textSize="10pt"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+     	
+        
+        
+    <EditText
+        android:id="@+id/txtPartner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Ur Partner&apos;s Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Our Friendship !"
+        android:textColor="#FF0044"
+        android:textSize="10pt"
+         />
+   
+     <TextView
+         android:id="@+id/lblPercent"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+        android:background="@drawable/brown"
+         android:textColor="#FFFFFF"
+         android:textSize="40pt" 
+                />
+    
+</LinearLayout>
